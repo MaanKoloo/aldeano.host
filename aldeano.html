@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aldeano.host</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        header img {
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .container {
+            padding: 20px;
+        }
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .feature {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin: 10px;
+            flex: 1 1 calc(33% - 40px);
+            max-width: calc(33% - 40px);
+            text-align: center;
+        }
+        .feature img {
+            height: 80px;
+        }
+        .feature h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .feature p {
+            font-size: 1em;
+            margin: 5px 0;
+        }
+        .whatsapp-button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-size: 1.2em;
+            margin: 20px auto;
+            width: fit-content;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .whatsapp-button img {
+            height: 24px;
+            margin-right: 10px;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo de Aldeano.host">
+        <h1>Aldeano Hosting</h1>
+    </header>
+    <div class="container">
+        <h2>Características</h2>
+		<a href="https://control.aldeano.host" target="_blank" style="text-decoration: none; color: #4CAF50; font-weight: bold;">Visita nuestro Panel de Control</a>
+        <div class="features">
+            <div class="feature">
+                <img src="chile.png" alt="Icono de Chile">
+                <h3>Hosteados en Chile 🇨🇱</h3>
+                <p>Disfruta de la mejor latencia y conexión local.</p>
+            </div>
+            <div class="feature">
+                <img src="ram.png" alt="Icono de RAM">
+                <h3>RAM de alta frecuencia 🖥️</h3>
+                <p>Rendimiento superior para tus juegos.</p>
+            </div>
+            <div class="feature">
+                <img src="nvme.png" alt="Icono de NVMe">
+                <h3>Discos NVMe 💾</h3>
+                <p>Velocidades de lectura y escritura insuperables.</p>
+            </div>
+            <div class="feature">
+                <img src="cpu.png" alt="Icono de CPU">
+                <h3>CPU de +4 GHz ⚙️</h3>
+                <p>Procesamiento rápido y eficiente.</p>
+            </div>
+        </div>
+        <a href="https://wa.me/56981511207" class="whatsapp-button">
+            <img src="whatsapp.png" alt="Logo de WhatsApp"> Contáctanos
+        </a>
+    </div>
+    <footer>
+        &copy; 2024 Aldeano.host. Todos los derechos reservados.
+    </footer>
+</body>
+</html>

@@ -1,0 +1,2 @@
+RewriteEngine on 
+RewriteRule ^(.*)$ https://aldeano.host/ [R=301,L]
